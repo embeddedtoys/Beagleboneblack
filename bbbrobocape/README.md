@@ -2,11 +2,17 @@
 Repository for bbbrobocape support software. 
 
 component_pdf - datasheet pdf of components used. The pdf's for resistors and cpacitors were left out.
+
 workspacebbb - eclipse project workspace folder for robocape.
+
 robocape_BOM_RevA - BOM in pdf form.
+
 robocapedts - device trees for the spi ports and gpio pins used.
+
 RoboGUISW - WIN7 GUI for testing board. Was built using .NET4.5.
+
 schematics - schematics and assembly drawing for robocape PCB.
+
 
 The software Allows user to test functionality of the various sections of robocape. The code is a collection
 of open source lib's already out there for beaglebone black. The eclipse project was based on Derek Malloys
