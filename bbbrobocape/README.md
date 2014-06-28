@@ -17,7 +17,7 @@ schematics - schematics and assembly drawing for robocape PCB.
 The software Allows user to test functionality of the various sections of robocape. The code is a collection
 of open source lib's already out there for beaglebone black. The eclipse project was based on Derek Malloys
 nice tutorial from his website. He puts out some great tutorials. The PWM module is based on Saadahmad's C++
-lib. Works great the pwm used are PWM1A PWM1B PWM2A and PWM2B. The motor control section is ST Micro's firmware 
+lib. Works great, the pwm used are PWM1A PWM1B PWM2A and PWM2B. The motor control section is ST Micro's firmware 
 code converted to a class. The network class used is netlink. Seems to work ok. Keep in mind you can use all the software
 or cut out what you don't like or just write your own from scratch, that's what's great about free software.
 
@@ -32,9 +32,13 @@ is arm-linux-gnueabi. If you use arm-linux-gnueabihf you will need to change the
 point to it.
 
 for loading the capes for the board use
+
 echo BB-SPI1-01 > /sys/devices/bone_capemgr.*/slots
+
 echo BB-SPI0-01 > /sys/devices/bone_capemgr.*/slots
+
 echo RoboCapeGpio > /sys/devices/bone_capemgr.*/slots
+
 
 There is a script in the eclispe folder to do this one step. The PWM firmware loads via code. A nice feature
 Saadahmad included in his PWM lib.
