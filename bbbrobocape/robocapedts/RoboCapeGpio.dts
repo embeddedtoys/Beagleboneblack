@@ -26,11 +26,7 @@
                   pinctrl_test: DM_GPIO_Test_Pins {
 			pinctrl-single,pins = <
 
-				/*0x078 0x07 */ /* P9_12 60 OUTPUT MODE7 - The LED Output */
-				/*0x184 0x2f */ /* P9_24 15 INPUT  MODE7 none     - The Button Input */
-				/*0x034 0x37*/  /* P8_11 45 INPUT  MODE7 pullup   - Yellow Wire */
-				/*0x030 0x27 */ /* P8_12 44 INPUT  MODE7 pulldown - Green Wire */
-				/*0x024 0x2f */ /* P8_13 23 INPUT  MODE7 none     - White Wire */
+				
                        
         0x78  0x37	/* P9_12 60	 INPUT	 AdcStrbgpio INPUT  MODE7 pullup*/               
  		0x70  0x17	/* P9_11 30	 OUTPUT	 AdcCsngpio OUTPUT  MODE7 pullup*/
